@@ -16,7 +16,7 @@ Motivacija sa strane operations-a, tj. service/server provider-a [nastavak]
 - FaaS (Function As A Service), kao alternativni "serverless"
 
   - sve prednosti i mane kako kod "serverless" container-a
-  - event-driven "serverless" funkcija
+  - event-driven "serverless" funkcija (event ne mora biti samo HTTP zahtev)
   - uopšte (skoro da) ne moramo da razmišljamo o horizontalnom skaliranju (automatski scale-out i scale-in-to-zero)
   - neverovatno isplativa stvar za slabije popularne servise
   - sada možemo da merimo (i naplaćujemo) vreme izvršavanja i za ispod sekunde (obično 100ms)
