@@ -21,3 +21,4 @@ Uvod u Docker
 - poređenje načina rada docker container-a i "slične" virtuelne mašine
 - osnove rada sa docker image-ima i njihovim layer-ima
 - osnove rada sa Dockerfile-ovima i pravljenje sopstvenog Docker image-a
+- objavljivanje napravljenog Docker image-a na Docker Hub
