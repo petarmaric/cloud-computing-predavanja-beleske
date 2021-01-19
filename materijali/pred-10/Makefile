@@ -1,4 +1,4 @@
-DOCKER_IMAGE = petarmaric/cloud-computing-predavanja:2020-pred-09
+DOCKER_IMAGE = petarmaric/cloud-computing-predavanja:2020-pred-10
 
 run: build .env
 	docker-compose up --build
