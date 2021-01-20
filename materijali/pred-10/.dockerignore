@@ -1,5 +1,3 @@
-.vscode/
-TODO.rst
 __pycache__/
 *.sqlite3
 .env
@@ -7,3 +5,5 @@ __pycache__/
 # AWS CDK specific files
 .cdk.staging
 cdk.out
+cdk.json
+cdk.py

@@ -12,5 +12,9 @@ build:
 publish: build
 	docker image push $(DOCKER_IMAGE)
 
-reset:
+destroy:
 	docker-compose down
+	cdk destroy --force
+
+deploy: publish
+	cdk deploy --require-approval never

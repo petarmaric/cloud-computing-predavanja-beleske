@@ -5,6 +5,7 @@ description = "webapp demo for cloud computing predavanja"
 authors = ["Petar Marić <petar.maric@gmail.com>"]
 license = "BSD"
 
+
 [tool.poetry.dependencies]
 python = "^3.6"
 Django = "~=3.1.0"
@@ -12,8 +13,15 @@ gunicorn = "~=20.0.0"
 python-decouple = "~=3.4.0"
 psycopg2-binary = "~=2.8.0"
 
+
 [tool.poetry.dev-dependencies]
 ipython = "*"
+
+# AWS CDK specific dependencies, please keep all of them at the same version
+"aws-cdk.core" = "~=1.85"
+"aws_cdk.aws_ecs_patterns" = "~=1.85"
+"aws_cdk.aws_rds" = "~=1.85"
+
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
